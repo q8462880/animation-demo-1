@@ -1,0 +1,376 @@
+<template>
+  <div id="___gatsby">
+    <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+      <div class="">
+        <div class="Toastify"></div>
+        <main>
+          <div>
+            <div class="src-pages-sign-up-index-module__signUp--YLDw+">
+              <div
+                class="src-pages-sign-up-index-module__upBk--xD9Uk"
+                style="top: 0px"
+              >
+                <img
+                  src="../static/upBk-b203dd594b84c3f22049c213aa7360af.png"
+                />
+              </div>
+              <div
+                class="src-pages-sign-up-index-module__signUpModal--FzazD"
+                style="
+                  opacity: 1;
+                  transform: translate3d(-50%, -50%, 0px) scale(1);
+                "
+              >
+                <div class="src-pages-sign-up-index-module__header--Uypf1">
+                  ADD YOUR EMAIL
+                  <div
+                    class="
+                      src-components-Common-CloseIcon-CloseIcon-module__CloseIcon--GClW2
+                      src-pages-sign-up-index-module__closeIcon--LQg2P
+                    "
+                  >
+                    <svg
+                      width="33"
+                      height="34"
+                      viewBox="0 0 33 34"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.72048 4.02506L29.8098 28.1994L30.1138 29.9619C21.7263 24.3003 2.65684 10.1968 2.35282 8.43436C2.09183 6.92132 3.25667 5.27378 4.50157 4.01097C4.83704 3.67067 5.38318 3.68657 5.72048 4.02506Z"
+                        fill="#182DEF"
+                      ></path>
+                      <path
+                        d="M2.22086 25.2077L28.5295 3.46961L30.3126 3.33072C23.896 11.1557 8.08116 28.8318 6.29807 28.9706C4.76731 29.0899 3.23517 27.7769 2.09354 26.4201C1.78589 26.0544 1.85248 25.5121 2.22086 25.2077Z"
+                        fill="#182DEF"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="src-pages-sign-up-index-module__form--RyjXX">
+                  <div
+                    data-baseweb="form-control-container"
+                    class="phanta_ae phanta_af"
+                  >
+                    <div
+                      class="src-pages-sign-up-index-module__emailInput--pg--Q"
+                    >
+                      <div
+                        data-baseweb="input"
+                        class="
+                          phanta_ag
+                          phanta_ah
+                          phanta_ai
+                          phanta_ae
+                          phanta_aj
+                          phanta_ak
+                          phanta_al
+                          phanta_am
+                          phanta_an
+                          phanta_ao
+                          phanta_ap
+                          phanta_aq
+                          phanta_ar
+                          phanta_as
+                          phanta_at
+                          phanta_au
+                          phanta_av
+                          phanta_aw
+                          phanta_ax
+                          phanta_ay
+                          phanta_az
+                          phanta_b0
+                          phanta_b1
+                          phanta_b2
+                          phanta_b3
+                          phanta_b4
+                          phanta_b5
+                          phanta_b6
+                          phanta_b7
+                          phanta_b8
+                        "
+                      >
+                        <div
+                          class="
+                            phanta_ah
+                            phanta_b9
+                            phanta_ba
+                            phanta_bb
+                            phanta_as
+                            phanta_at
+                            phanta_ay
+                            phanta_az
+                            phanta_b0
+                            phanta_b1
+                            phanta_bc
+                            phanta_bd
+                            phanta_be
+                            phanta_b6
+                          "
+                        >
+                          <img
+                            width="22"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAABYWlDQ1BrQ0dDb2xvclNwYWNlRGlzcGxheVAzAAAokWNgYFJJLCjIYWFgYMjNKykKcndSiIiMUmB/yMAOhLwMYgwKicnFBY4BAT5AJQwwGhV8u8bACKIv64LMOiU1tUm1XsDXYqbw1YuvRJsw1aMArpTU4mQg/QeIU5MLikoYGBhTgGzl8pICELsDyBYpAjoKyJ4DYqdD2BtA7CQI+whYTUiQM5B9A8hWSM5IBJrB+API1klCEk9HYkPtBQFul8zigpzESoUAYwKuJQOUpFaUgGjn/ILKosz0jBIFR2AopSp45iXr6SgYGRiaMzCAwhyi+nMgOCwZxc4gxJrvMzDY7v////9uhJjXfgaGjUCdXDsRYhoWDAyC3AwMJ3YWJBYlgoWYgZgpLY2B4dNyBgbeSAYG4QtAPdHFacZGYHlGHicGBtZ7//9/VmNgYJ/MwPB3wv//vxf9//93MVDzHQaGA3kAFSFl7jXH0fsAAAA4ZVhJZk1NACoAAAAIAAGHaQAEAAAAAQAAABoAAAAAAAKgAgAEAAAAAQAAADigAwAEAAAAAQAAADgAAAAALp9KaQAAA2tJREFUaAXtWV1u00AQnnX4ERJSs0KQPCHDCwjaiPQCpD1BOUFbLpCGCzTlAg03KBegPUHDCUpEGom3hLcUVDmPSIgsM1bcWOtk7Di2VUe7UuTdnd2Z+WZm/dkxgGkmAiYCJgImAvEjIMoVZ1cpaAmAYnw1t3JnH0ThSJQ3nD66Z99KF5d0SgE41qqCo9hQVRLAlW53IqA7ATX+GWFd9ksEHS1rlzMcBWBtLKzGr6484xRlLSu/draUgDqWIduilKiNi07xbnvIaspQiL40wYJzOmNhZukuijebaVNq/EkI2hhMPS48E3+hMfwhB9Md2fXWno7kgzX1BS3WdKvkGx0lIay6T6YCGcSojIbdR3ug4Mi30O2ibAfuQrv80rF1Wdrjx6+cKoK7QDs1zRbmBBpXXfmOfNdkmOg5bXgpmwhyC8UDbYmNIPulyvWBNp/asFRx6lYBztGArRnpo4/bVz3Z0uZvhnMB0goE+RUKQIe5c7Nj0hHKOi5tOMf6fJLjou0UEdyxmP2k9Q1923Z9ZIyyAGnfsCMHV99ldU7JHtCTUBolW3oxenb/IbQRXKBS8Ly1hl25Sb4x2FxRKEBPAZUsZrKBykfe3ORKJdt+suHsaPOxh0QBcE9d4M3ujV8J2nZgDPt43hr+ea4fGSApwUy2RAGq2B3Q2NdsVJQIlTAU0Efbm8OePPHZDe0uBJC0UVn8cUGOPwe0K2jiuTyNU7JEAVjubTwKhwG9ACdoM1JJ6nsXBkgKRh2ZKJWEUQCet32yqTsfZRwLoKc4CSpZhgI8P7jrUgBJcVwqYSlAQTsKBXDAPNnSAF2QC1JJKAVcyu0oFOCB4K6JAPQMRKGSJCnAs8tdEwVIhsKoBB8OZ70FxKIADpgnSxwgKWapxLM8vcamgKmK+b0oL7zzdzOSyW19r7zuDPDPkVncRm8BH7gHZUZ9ZFEqGfRb91FJ3zcf+hbgW7tUN7UM+r1yqQTgOWaz9k/B6HdPdvzyNPuZAPQATIB6w0yuqZdoJigYIwYgE5xciEwGc5EmxkmTQSY4uRCZDOYiTYyTJoNMcHIhMhnMRZoYJ4NvE8J6W16/bjJ7bq8IfdedC3wA1RfkfBz8AJpzQAH3LUVfbFa3DQjge8RH/5dgN/VfZqF0EzeGj5kZNIZMBEwETARWMgL/AXYLVbTAir84AAAAAElFTkSuQmCC"
+                          />
+                        </div>
+                        <div
+                          data-baseweb="base-input"
+                          class="
+                            phanta_ah
+                            phanta_ae
+                            phanta_bf
+                            phanta_as
+                            phanta_at
+                            phanta_ay
+                            phanta_az
+                            phanta_b0
+                            phanta_b1
+                            phanta_be
+                            phanta_b6
+                          "
+                        >
+                          <input
+                            aria-required="false"
+                            autocomplete="on"
+                            inputmode="text"
+                            name=""
+                            placeholder="Email Address"
+                            type="text"
+                            class="
+                              phanta_ag
+                              phanta_bg
+                              phanta_bh
+                              phanta_bi
+                              phanta_bj
+                              phanta_bk
+                              phanta_bl
+                              phanta_bm
+                              phanta_bn
+                              phanta_bo
+                              phanta_bp
+                              phanta_ae
+                              phanta_bq
+                              phanta_br
+                              phanta_bs
+                              phanta_bt
+                              phanta_bu
+                              phanta_bv
+                              phanta_b7
+                              phanta_bw
+                              phanta_ay
+                              phanta_az
+                              phanta_b0
+                              phanta_b1
+                              phanta_be
+                              phanta_bx
+                              phanta_by
+                            "
+                            value=""
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="src-pages-sign-up-index-module__verifyWrap--CG92c"
+                  >
+                    <div
+                      data-baseweb="form-control-container"
+                      class="phanta_ae phanta_af"
+                    >
+                      <div
+                        class="
+                          src-pages-sign-up-index-module__verifyInput--nfo5p
+                        "
+                      >
+                        <div
+                          data-baseweb="input"
+                          class="
+                            phanta_ag
+                            phanta_ah
+                            phanta_ai
+                            phanta_ae
+                            phanta_aj
+                            phanta_ak
+                            phanta_al
+                            phanta_am
+                            phanta_an
+                            phanta_ao
+                            phanta_ap
+                            phanta_aq
+                            phanta_ar
+                            phanta_as
+                            phanta_at
+                            phanta_au
+                            phanta_av
+                            phanta_aw
+                            phanta_ax
+                            phanta_ay
+                            phanta_az
+                            phanta_b0
+                            phanta_b1
+                            phanta_b2
+                            phanta_b3
+                            phanta_b4
+                            phanta_b5
+                            phanta_b6
+                            phanta_b7
+                            phanta_b8
+                          "
+                        >
+                          <div
+                            class="
+                              phanta_ah
+                              phanta_b9
+                              phanta_ba
+                              phanta_bb
+                              phanta_as
+                              phanta_at
+                              phanta_ay
+                              phanta_az
+                              phanta_b0
+                              phanta_b1
+                              phanta_bc
+                              phanta_bd
+                              phanta_be
+                              phanta_b6
+                            "
+                          >
+                            <img
+                              width="22"
+                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAABYWlDQ1BrQ0dDb2xvclNwYWNlRGlzcGxheVAzAAAokWNgYFJJLCjIYWFgYMjNKykKcndSiIiMUmB/yMAOhLwMYgwKicnFBY4BAT5AJQwwGhV8u8bACKIv64LMOiU1tUm1XsDXYqbw1YuvRJsw1aMArpTU4mQg/QeIU5MLikoYGBhTgGzl8pICELsDyBYpAjoKyJ4DYqdD2BtA7CQI+whYTUiQM5B9A8hWSM5IBJrB+API1klCEk9HYkPtBQFul8zigpzESoUAYwKuJQOUpFaUgGjn/ILKosz0jBIFR2AopSp45iXr6SgYGRiaMzCAwhyi+nMgOCwZxc4gxJrvMzDY7v////9uhJjXfgaGjUCdXDsRYhoWDAyC3AwMJ3YWJBYlgoWYgZgpLY2B4dNyBgbeSAYG4QtAPdHFacZGYHlGHicGBtZ7//9/VmNgYJ/MwPB3wv//vxf9//93MVDzHQaGA3kAFSFl7jXH0fsAAAA4ZVhJZk1NACoAAAAIAAGHaQAEAAAAAQAAABoAAAAAAAKgAgAEAAAAAQAAADigAwAEAAAAAQAAADgAAAAALp9KaQAAAvRJREFUaAXtWV1u00AQnrGD1KcSE6nNY+CVJnACSE9AywWoeoFIvQApB0DhBDQX4AjQ3sCkPPBE8phIRc5rRfEym+LUddZh116vrbArWfaOZ7+Zb3bWP7MAttkIVDoCmNe7eiuob21DjwEcAIMWAdbzYjIEH8LwAm+cwfS7N8mDl4vgbifoEam+DlIiEhS0ABE+TEfeqei+jCwzwWYneMvJyRjJqcMA4TQryUwEm+2rIwD3Y07HVYYzhuHJbNQYqAziuhkJBmMa2+IAUaN0mgMLhwQ4j2SZzshxnZc0ls53jfCDaxeezH1PCb92ByF3dTt7CeMM/Osa7M/9hpLxNIu7nfljAPYJGTyPdJAeXlu/fh9Q/yySyZwdGaW4DuXK0mgkxxocqkY2Gis6z0Z1yhB8nbiH4LgvErJ/dpUJIjrP7qEyOJ/6+R7l9/D+dmajh5PF6yJ+k15D8a7MtTJBGVBdOpSiuVO+0gR1BMoS1BHFMjHsDJYZfR227QzqiGKZGHYGy4y+Dtt2BnVEsUwMO4NlRl+HbfqPFDequbxhDAb8R1OsURnpGNClms32UORROsH2allCBFAFGS9nzC69RyJf1q3BlmhAFWXrsmwdwSpyUfZJpeh0TlWzC2ULRQzARdWtKwMtT5DITb81+jKgRes09372AZ2ujJ2NT1FLUCYNqqwjvwZzsmg+DfZpf+EVh9GxLSbrjpEU3dm7OgQHPlPRuMcPeAA/dtoBL8MX3owQdNB9n2CCZDgpS6jo6RohSK62BO6KZAK1fCIzBBG+rLhJexorsgIEZgg6cEwfxPF9hjHU4LgAPiuQRgjy3Sf6IPaX1hlMitiRWuLHLowQjNkzfrnxBI296GnqhhDChE8hrcev/GyiGSM4vfTOiBA/jLaNT1FL0Gg+FWBMfg1SmWDxJ12AE8qQtyULqWHyBAG6smUCKcuGlP7fNciLqYaCrMPMJA0kdQbp2/GEBo3pIK7ajjQ/MssXExHCu8wAdqCNQLkR+APARLGVdGIQvQAAAABJRU5ErkJggg=="
+                            />
+                          </div>
+                          <div
+                            data-baseweb="base-input"
+                            class="
+                              phanta_ah
+                              phanta_ae
+                              phanta_bf
+                              phanta_as
+                              phanta_at
+                              phanta_ay
+                              phanta_az
+                              phanta_b0
+                              phanta_b1
+                              phanta_be
+                              phanta_b6
+                            "
+                          >
+                            <input
+                              aria-required="false"
+                              autocomplete="on"
+                              inputmode="text"
+                              name=""
+                              placeholder="Verification Code"
+                              type="text"
+                              class="
+                                phanta_ag
+                                phanta_bg
+                                phanta_bh
+                                phanta_bi
+                                phanta_bj
+                                phanta_bk
+                                phanta_bl
+                                phanta_bm
+                                phanta_bn
+                                phanta_bo
+                                phanta_bp
+                                phanta_ae
+                                phanta_bq
+                                phanta_br
+                                phanta_bs
+                                phanta_bt
+                                phanta_bu
+                                phanta_bv
+                                phanta_b7
+                                phanta_bw
+                                phanta_ay
+                                phanta_az
+                                phanta_b0
+                                phanta_b1
+                                phanta_be
+                                phanta_bx
+                                phanta_by
+                              "
+                              value=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a
+                      class="
+                        src-pages-sign-up-index-module__verifyBtn--um0tb
+                        src-components-Common-Button-Button-module__small--1JxHq
+                        src-components-Common-Button-Button-module__defaultStyle--wiMFz
+                      "
+                      ><div
+                        class="
+                          src-components-Common-Button-Button-module__upper--tXlL7
+                        "
+                      >
+                        Send Verification Code
+                      </div>
+                      <div
+                        class="
+                          src-components-Common-Button-Button-module__lower---YFT-
+                        "
+                      >
+                        Send Verification Code
+                      </div></a
+                    >
+                  </div>
+                  <div
+                    class="
+                      src-components-Common-Button-Button-module__specialButton--J3g19
+                    "
+                  >
+                    <span>Add Now!</span
+                    ><img
+                      width="236.26904296875"
+                      class="
+                        src-components-Common-Button-Button-module__specialBtnBk--FV-o9
+                      "
+                      src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAxIiBoZWlnaHQ9IjkxIiB2aWV3Qm94PSIwIDAgMzAxIDkxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNOC40OTU2OCAzMy45MjQzTDAuMTkzMDcgODIuODYyQzAuMDkxMjA3MyA4My40NjI0IDAuNTQ1MTEgODQuMDEzNyAxLjE1MzkgODQuMDI5TDI3OC4xMzggOTAuOTc4NEMyNzguNjMzIDkwLjk5MDggMjc5LjA2MyA5MC42Mzg4IDI3OS4xNDggOTAuMTUwOEwyOTMuMjc2IDkuMjgyNzlDMjkzLjM4OSA4LjYzNTM4IDI5Mi44NTggOC4wNTY3NSAyOTIuMjAzIDguMTE0NThMOS4zOTM2MSAzMy4wOTU1QzguOTQwNjcgMzMuMTM1NSA4LjU3MTc0IDMzLjQ3NiA4LjQ5NTY4IDMzLjkyNDNaIiBmaWxsPSIjMTgyREVGIi8+CjxwYXRoIGQ9Ik05LjM0NTI4IDM0LjgxNzNDOS40MDQwOSAzNC4zNDI1IDkuNzkwODQgMzMuOTc2IDEwLjI2OCAzMy45NDI2TDI4MC4yNDEgMTUuMDg4QzI4MC44ODQgMTUuMDQzIDI4MS40MDEgMTUuNjA5NyAyODEuMjk3IDE2LjI0NjFMMjcwLjczNSA4MS4xNjA2QzI3MC42NTYgODEuNjQ0NSAyNzAuMjM4IDgyIDI2OS43NDggODJINC42MzE1M0M0LjAzMDQ4IDgyIDMuNTY1MjIgODEuNDczNiAzLjYzOTEyIDgwLjg3NzFMOS4zNDUyOCAzNC44MTczWiIgZmlsbD0iI0VBMzM3OCIvPgo8cGF0aCBkPSJNMzAxIDBMMjc5LjUgMkwyOTYuNSAzLjVMMjk3LjUgMTIuNUwzMDEgMFoiIGZpbGw9IiMxODJERUYiLz4KPC9zdmc+Cg=="
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="src-pages-sign-up-index-module__downBk--eARGX"
+                style="bottom: -10px"
+              >
+                <img
+                  src="../static/downBk-afb9c19181a8e911ef4d77e7b16177f2.png"
+                />
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class=""></div>
+    </div>
+    <div
+      id="gatsby-announcer"
+      style="
+        position: absolute;
+        top: 0;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      "
+      aria-live="assertive"
+      aria-atomic="true"
+    >
+      Navigated to sign up | ezek
+    </div>
+  </div>
+</template>
+<style scoped>
+</style>
