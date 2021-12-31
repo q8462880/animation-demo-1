@@ -6,6 +6,7 @@
 - build
 > npm run build
 
+demo 地址:https://q8462880.github.io/animation-demo-1/
 ---
 
 为了风格统一 
